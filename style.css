@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+body {
+  color: rgb(140, 140, 140);
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  background-color: lightgray;
+  line-height: 25px;
+}
+
+h1 {
+  font-family: Raleway, sans-serif;
+  font-size: 35px;
+  line-height: 40px;
+  color: rgb(179, 89, 0);
+}
+
+h2 {
+  font-family: Raleway, sans-serif;
+  font-size: 25px;
+  line-height: 20px;
+  color: rgb(44, 75, 23);
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.card-white {
+  background-color: white;
+  width: 570px;
+  padding: 40px;
+  margin: 30px auto;
+  border-radius: 4px;
+  box-shadow: 0px 10px 10px gray;
+  text-align: center;
+}
+
+#img-circle {
+  border-radius: 50%;
+}
+
+.button-green {
+  background-color: rgb(131, 226, 196);
+  padding: 20px 20px;
+ /* margin: 100px 65px 15px 65px;*/
+  color: white;
+  font-size: 18px;
+  text-shadow: 1px 0px 1px grey;
+  border-radius: 4px;
+  line-height: 25px;
+  transition: all 0.3s ease;
+}
+
+.button-green:hover {
+  background-color: lightgray;
+  font-size: 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+  list-style: none;
+  margin: 40px 0px auto;
+  line-height: 80px;
+}
+
+.list-inline li{
+  display: inline;
+  padding: 10px 17px;
+}
+
+.list-inline i{
+  font-size: 35px;
+  color: rgb(103, 46, 23);
+  transition: all 0.3s ease;
+}
+
+.list-inline i:hover{
+  color: lightgray;
+  font-size: 45px;
+}
+
+.padding-top {
+  margin-top: 20px;
+}
+
+@media (max-width: 960px) {
+  .card-white {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .card-white {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .card-white {
+    width: 300px;
+  }
+}
+
+
+
